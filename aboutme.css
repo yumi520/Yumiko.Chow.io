@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.first-section {
+    display: flex;
+    margin: 50px 150px;
+}
+
+h1 {
+    margin-left: 100px;
+}
+
+p {
+    margin-right: 100px;
+    margin-left: 50px;
+    line-height: 40px;
+    display: flex;
+ }
+ 
+img {
+    height: 350px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.favorite {
+    margin-left: 500px;
+    display: flex;
+    font-weight: 900;
+}
+
+.second-section ul {
+    margin-left: 500px;
+}
