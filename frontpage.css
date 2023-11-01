@@ -2,19 +2,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+section {
     text-align: center;
-    padding: 20px 0;
+}
+
+h1 {
+    margin: 20px 0;
 }
 
 h4 {
-    text-align: center;
     color: rgb(107, 137, 107);
-}
+} 
 
 h2 {
-    text-align: center;
-    margin: 0 400px;
     line-height: 40px;
-    display: flex;
+    font-style: italic;
 }
