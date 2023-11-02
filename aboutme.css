@@ -2,12 +2,26 @@
     box-sizing: border-box;
 }
 
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 80px;
+}
+
+.first-section p {
+    width: 600px;
+}
+
 img {
     height: 350px;
     width: 300px;
-    margin-right: 50px;
 }
 
 p {
     line-height: 40px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
 }
