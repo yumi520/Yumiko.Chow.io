@@ -5,44 +5,47 @@
     box-sizing: border-box;
     background-color: #d8e5cb;
     list-style-type: none;
-    letter-spacing: 2px;
-}
-
-.logo {
-    padding-right: 600px;
 }
 
 .pages {
     display: flex;
-    justify-content: center;
-    font-size: 15px;
-}
+    justify-content: space-evenly;
+    align-items: flex-end;
+} 
 
 a {
     color: #06070E;
-    padding: 0 20px;
 }
 
 a:hover {
     color: rgb(43, 59, 49);
-    padding: 0 20px;
 }
 
-.pages a:hover {
-    border-bottom: 1px solid #06070E;
-    padding: 14px 20px;
-}
-
-nav {
-    width: 100%;
-    border-bottom: 1px solid #78826d;
-    margin-bottom: 150px;
+header {
+    border-bottom: 1px solid #889779;
+    margin-bottom: 10rem;
 }
 
 footer {
     margin-top: 10rem;
-    border-top: 1px solid #06070E;
-    border-color: #414a37;
+    border-top: 1px solid #889779;
+    padding-top: 20px;
+}
+
+.bottom {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pages a:hover {
+    border-bottom: 1px solid #06070E;
+    padding: 15px 0;
+}
+
+.logo {
+    float: left;
 }
 
 
