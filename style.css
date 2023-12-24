@@ -1,10 +1,15 @@
+:root {
+    --bg-color: #fffbf9;
+    --title-size: 48px;
+}
 
 * {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
-    background-color: #d8e5cb;
+    background-color: var(--bg-color);
     list-style-type: none;
+    scroll-behavior: smooth;
 }
 
 .pages {
@@ -23,7 +28,7 @@ a:hover {
 
 header {
     border-bottom: 1px solid #889779;
-    margin-bottom: 10rem;
+    /*margin-bottom: 10rem;*/
 }
 
 footer {

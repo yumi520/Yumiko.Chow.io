@@ -1,16 +1,102 @@
-section {
-    text-align: center;
+@media screen and (max-width: 500px) {
+    img {
+        width: 100%;
+    }
 }
 
-h1 {
-    margin: 20px 0;
+@media screen and (max-width: 1200px) {
+    .sunney-showcase {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.intro-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 1px solid #889779;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.intro-paragraph {
+    max-width: 1000px;
+    min-width: 450px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.my-works {
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.frontpage-role {
+    line-height: 40px;
+    font-style: italic;
+}
+
+.works-section {
+    margin-top: 100px;
+}
+
+.works-title {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    font-size: var(--title-size);
+}
+
+/* Sunney showcase starts */
+
+.Sunney {
+    height: 300px;
+    width: 400px;
 }
 
 h4 {
     color: rgb(107, 137, 107);
 } 
 
-h2 {
-    line-height: 40px;
-    font-style: italic;
+.sunney-showcase, h3, h4 {
+    display: flex;
+    justify-content: space-evenly;
 }
+
+.sunney-showcase {
+    margin-bottom: 200px;
+}
+
+.sunney-showcase h3 {
+    font-size: 30px;
+}
+
+.word-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 250px;
+    font-size: 15px;
+}
+
+.sunney-button {
+    padding: 10px;
+}
+
+.sunney-anchor {
+    display: flex;
+    justify-content: center;
+}
+
+/* Sunney showcase ends */
