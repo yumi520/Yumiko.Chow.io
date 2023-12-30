@@ -1,6 +1,7 @@
 @media screen and (max-width: 500px) {
     img {
-        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
 }
 
@@ -25,12 +26,13 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px;
 }
 
 .intro-paragraph {
     max-width: 1000px;
-    min-width: 450px;
     line-height: 45px;
     text-align: center;
     font-size: 35px;
@@ -62,6 +64,7 @@ img {
 .Sunney {
     height: 300px;
     width: 400px;
+    filter: var(--shadow);
 }
 
 h4 {
