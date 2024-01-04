@@ -2,6 +2,7 @@
     --bg-color: #fffbf9;
     --title-size: 48px;
     --shadow: drop-shadow(gray 0 0 5px);
+    --border: 1px solid #889779;
 }
 
 * {
@@ -28,7 +29,7 @@ a:hover {
 }
 
 header {
-    border-bottom: 1px solid #889779;
+    border-bottom: var(--border)
 }
 
 /* footer starts */
