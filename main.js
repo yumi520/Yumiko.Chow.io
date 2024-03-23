@@ -1,9 +1,12 @@
-document.querySelector('.works-link').addEventListener('click', scrollToWorks);
+import React from 'react'
+import './styles.css';
+import { createRoot } from 'react-dom/client';
+import { Comments, Navigation } from './Components.js';
 
-function scrollToWorks() {
-    let worksSection = document.querySelector('.works-section');
-    
-    if (worksSection) {
-        worksSection.scrollIntoView({ behavior: 'smooth' });
-    }
-}
+const navDomNode = document.getElementById('navigation');
+const navRoot = createRoot(navDomNode); 
+navRoot.render(<Navigation />);
+
+const commentDomNode = document.getElementById('comments');
+const commentRoot = createRoot(commentDomNode); 
+commentRoot.render(<Comments />);
