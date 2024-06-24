@@ -25,7 +25,7 @@ function Projects() {
 
     <section className="sunney-showcase">
 
-        <img src={HolidayHack} class="Sunney" alt="image of home page for Christmas Designer game"></img>
+        <img src={HolidayHack} class="Sunney" alt="home page for Christmas Designer game"></img>
         <div class="word-section">
             <h3>Christmas Designer</h3>
             <h4>Full-stack Website Application: HTML, CSS, JS</h4>
