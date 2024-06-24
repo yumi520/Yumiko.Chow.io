@@ -4,10 +4,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Intro from './components/Intro';
-import About from './components/About';
-import Works from './components/Works';
-//import WorksSection from './components/WorksSection';
+import About from './pages/About';
 import Footer from './components/Footer';
+import Sunney from './pages/Sunney';
 
 function App() {
   return (
@@ -16,8 +15,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Intro />} />
-          <Route path="/works" element={<Works />} />
           <Route path="/about" element={<About />} />
+          <Route path="/sunney" element={<Sunney />} />
         </Routes>
         <Footer />
       </div>

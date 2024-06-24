@@ -1,0 +1,17 @@
+footer {
+    margin-top: 10rem;
+    border-top: 1px solid #889779;
+    padding-top: 20px;
+}
+
+.bottom {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pages a:hover {
+    border-bottom: 1px solid #06070E;
+    padding: 15px 0;
+}

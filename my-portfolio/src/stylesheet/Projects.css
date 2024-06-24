@@ -1,0 +1,52 @@
+@media screen and (max-width: 1200px) {
+    .sunney-showcase {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .word-section {
+        margin-right: 5em;
+    }
+  }
+
+.Sunney {
+    height: 300px;
+    width: 400px;
+    filter: var(--shadow);
+}
+
+h4 {
+    color: rgb(107, 137, 107);
+} 
+
+.sunney-showcase, h3, h4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sunney-showcase {
+    margin-bottom: 200px;
+}
+
+.sunney-showcase h3 {
+    font-size: 30px;
+}
+
+.word-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 250px;
+    font-size: 15px;
+    margin-left: 5em;
+}
+
+.sunney-button {
+    padding: 10px;
+}
+
+.sunney-anchor {
+    display: flex;
+    justify-content: center;
+}

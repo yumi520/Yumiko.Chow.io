@@ -1,0 +1,27 @@
+.works-title {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    font-size: var(--title-size);
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    border-top: 1px solid #889779;
+  }
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 10px;
+}

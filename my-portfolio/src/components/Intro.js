@@ -1,17 +1,23 @@
 // src/components/Intro.js
 import React from 'react';
-//import './Intro.css';
+import '../stylesheet/Intro.css';
+import Projects from './Projects';
+import Drawing from '../assets/portfolio-image-1 3.png';
 
 function Intro() {
   return (
     <section className="intro-page">
-        <img src="assets/portfolio-image-1 3.png" alt="drawing of Yumiko"></img>
-        <p class="intro-paragraph">
-            I'm Yumi, a 2nd year at Northeastern University with an interest in 
-            developing skills in both software development and intuitive design.
+      <section className="first-section">
+        <img src={Drawing} alt="drawing of Yumiko"></img>
+        <p className="intro-paragraph">
+        I'm Yumi, a 2nd year at Northeastern University with an interest 
+        on developing skills in both software development and intuitive 
+        design with curiosity about storytelling.
         </p>
 
         <span className="my-works">↓ Works ↓</span>
+      </section>
+        <Projects />
     </section>
   );
 }
