@@ -6,7 +6,6 @@
 }
 
 * {
-    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
     background-color: var(--bg-color);
@@ -14,14 +13,24 @@
     scroll-behavior: smooth;
 }
 
+.logo {
+    margin-right: auto; /* Pushes the logo to the left */
+}
+
+.nav-pages {
+    display: flex;
+}
+
 .pages {
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center; /* Centers items vertically */
+    width: 100%;
 } 
 
 a {
     color: #06070E;
+    margin-left: 2em;
 }
 
 a:hover {
@@ -29,5 +38,6 @@ a:hover {
 }
 
 header {
-    border-bottom: var(--border)
+    border-bottom: var(--border);
+    padding: 1em 2em; /* Adds padding to the header */
 }

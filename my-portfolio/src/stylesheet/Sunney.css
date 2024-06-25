@@ -1,6 +1,29 @@
 .sunneyTopSection {
     text-align: center;
     border-bottom: var(--border);
+    margin-bottom: 5em;
+}
+
+.data-about-project {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sunneyTopSection p {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1.3em;
+
+}
+
+.data-about-project span {
+    font-size: large;
+    font-weight: 500;
+}
+
+.data-about-project li {
+    margin-top: 1em;
 }
 
 .sunneyTopSection h1 {
@@ -14,31 +37,88 @@ img {
     display: block;
 }
 
-.sunneySecondSection h2, .sunneyThirdSection h2, .sunneyFourthSection h2 {
+.sunney-overview h2, .sunney-problem h2, .sunney-solution h2,
+ .sunneyFourthSection h2, .sunney-comp-analysis h2, .sunney-user-interviews h2, .sunney-findings-analysis h2, .sunney-design h2 {
     font-weight: bold;
     font-size: 2rem;
 }
 
-.sunneySecondSection p, .sunneyThirdSection p, .sunneyFourthSection p {
+.sunney-overview p, .sunney-problem p, .sunney-solution p,
+ .sunneyFourthSection p, .sunney-comp-analysis p, .sunneyHifi p,
+ .sunney-comp-analysis span, .sunney-design span, .sunneyLowfi p {
     line-height: 30px;
     width: 50%;
     margin: auto;
     display: block;
     text-align: start;
-    margin-bottom: 70px;
+    margin-bottom: 3em;
 }
 
-.sunneySecondSection, .sunneyThirdSection, .sunneyFourthSection {
+.sunney-user-interviews ul, .sunney-findings-analysis ul {
+    line-height: 1.5em;
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 5em;
+
+}
+
+.sunney-user-interviews li, .sunney-findings-analysis li {
+    line-height: 1.5em;
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: start;
+
+}
+
+.sunney-user-interviews span, .sunney-findings-analysis span {
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 1em;
+
+}
+
+.sunney-comp-analysis p, .sunney-user-interviews span, .sunney-findings-analysis span {
+    margin-top: 2em;
+}
+
+.sunney-overview, .sunney-problem, .sunney-solution,
+ .sunneyFourthSection, .sunney-comp-analysis, .sunney-user-interviews, .sunney-findings-analysis, .sunney-design {
     text-align: center;
 }
 
-.sunneyLowfi h2, .sunneyBranding h2, .sunneyHifi h2{
+.sunney-problem p {
+    background-color: #e9e5e1;
+    padding: 2em;
+}
+
+.sunney-solution p {
+    background-color: #f8e2d1;
+    padding: 2em;
+}
+
+.sunney-overview h2, .sunney-problem h2, .sunney-solution h2, .sunney-comp-analysis h2,
+.sunney-user-interviews h2, .sunney-findings-analysis h2, .sunney-design h2, .sunneyLowfi h2,
+ .sunneyBranding h2, .sunneyHifi h2 {
     display: flex;
     justify-content: flex-start;
-    margin-left: 10%;
+    margin-left: 20%;
     font-size: 30px;
 }
 
-.sunneyLowfi, .sunneyBranding, .sunneyHifi{
+.sunney-design h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 23%;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.sunneyLowfi, .sunneyBranding, .sunneyHifi {
     margin-bottom: 100px;
 }
