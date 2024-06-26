@@ -45,12 +45,12 @@ img {
   margin-top: 100px;
 }
 
-.works-title {
+/* .works-title {
   display: flex;
   justify-content: flex-start;
   margin-left: 10%;
   font-size: var(--title-size);
-}
+} */
 
 .first-section {
   border-bottom: var(--border)

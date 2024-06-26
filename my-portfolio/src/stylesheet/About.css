@@ -32,6 +32,15 @@
     }
 }
 
+@media screen and (max-width: 538px) {
+
+    .word-section li {
+        font-size: 80%;
+    }
+
+}
+    
+
 .word-section h1 {
     margin-top: 2em;
     font-size: 2em;
@@ -53,6 +62,10 @@
 .experience {
     font-weight: 600;
     background-color: #f8e2d1;
+}
+
+.word-section ul {
+    margin-bottom: 3em;
 }
 
 .word-section {
@@ -91,3 +104,43 @@
     flex-direction: column;
    
 }
+
+/* buttons */
+.resume-button {
+    background-color: #ffffff;
+    border-radius: .5rem;
+    border: 0;
+    box-sizing: border-box;
+    color: #111827;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.resume-button:hover {
+    background-color: #f8e2d1;
+}
+
+.resume-anchor {
+    display: flex;
+    justify-content: center;
+}
+
+.word-section a {
+    /* font-weight: 600; */
+    color: #000000;
+  }
+  
+  .word-section a:hover {
+    color: #341a07;
+    background-color: #f8e2d1;
+    border-radius: 15%;
+    transition: background-color 0.3s ease;
+  }

@@ -6,11 +6,13 @@
 
     .description-section {
         margin-right: 5em;
+        margin-top: 3em;
     }
 
     .sunney-button, .case-study-button {
         display: flex;
-        margin-right: 3em;
+        /* margin-right: 1em; */
+        margin-bottom: 3em;
     }
 }
 
@@ -21,11 +23,7 @@
     filter: var(--shadow);
 }
 
-.description-section h4 {
-    color: rgb(107, 137, 107);
-}
-
-.sunney-showcase, h3, .description-section h4 {
+.sunney-showcase, .description-section {
     display: flex;
     justify-content: space-evenly;
 }
@@ -34,20 +32,33 @@
     margin-bottom: 10em;
 }
 
-.sunney-showcase h3 {
-    font-size: 30px;
+.description-section h3 {
+    font-size: 2em;
+}
+
+.description-section h4 {
+    color: rgb(107, 137, 107);
+}
+
+.description-section h5 {
+    color: rgb(107, 137, 107);
+}
+
+.description-section {
+    border-top: 0.1em solid rgb(107, 137, 107);
+    border-bottom: 0.1em solid rgb(107, 137, 107);
 }
 
 .description-section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 500px;
-    min-width: 250px;
-    font-size: 15px;
+    /* max-width: 500px;
+    min-width: 250px; */
+    /* font-size: 15px; */
     margin-left: 5em;
 }
-
+/* this is for About page */
 .word-section {
     display: flex;
     justify-content: center;

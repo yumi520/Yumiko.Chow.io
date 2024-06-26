@@ -14,7 +14,7 @@
 }
 
 .logo {
-    margin-right: auto; /* Pushes the logo to the left */
+    margin-right: auto; 
 }
 
 .nav-pages {
@@ -23,18 +23,19 @@
 
 .pages {
     display: flex;
-    justify-content: space-between; /* Distributes space between items */
-    align-items: center; /* Centers items vertically */
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
 } 
 
-a {
+.pages a, .bottom a {
     color: #06070E;
     margin-left: 2em;
 }
 
-a:hover {
+.pages a:hover, .bottom a:hover {
     color: rgb(43, 59, 49);
+    border-bottom: var(--border);
 }
 
 header {

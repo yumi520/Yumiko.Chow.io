@@ -6,11 +6,12 @@ function Footer() {
   return (
     <footer>
       <section className="footer-nav">
-        <span>yumi520.github.io</span>
+        <span>@ 2024 made with love</span>
+        <span>personal website</span>
         <ul>
-          <li><a href="https://github.com/yumi520" target="_blank" rel="noopener noreferrer">github</a></li>
-          <li><a href="https://www.linkedin.com/in/yumiko-chow/" target="_blank" rel="noopener noreferrer">linkedin</a></li>
-          <li><a href="mailto:chow.y@northeastern.edu">email</a></li>
+          <li><a href="https://github.com/yumi520" target="_blank" rel="noopener noreferrer">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/yumiko-chow/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+          <li><a href="mailto:chow.y@northeastern.edu">Email</a></li>
         </ul>
       </section>
       <ul className="bottom">
