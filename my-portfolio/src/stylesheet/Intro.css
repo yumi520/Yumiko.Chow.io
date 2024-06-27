@@ -1,5 +1,5 @@
 @media screen and (max-width: 500px) {
-  img {
+  .first-section img {
       max-width: 100%;
       height: auto;
   }
@@ -15,20 +15,20 @@
   /* border-bottom: 1px solid #889779; */
 }
 
-img {
+.first-section img {
   display: flex;
   justify-content: center;
-  align-items: center;
   max-width: 100%;
   height: auto; 
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .intro-paragraph {
   max-width: 1000px;
-  line-height: 45px;
+  line-height: 1.2em;
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
+  font-family: 'EB Garamond';
 }
 
 .my-works {
@@ -52,6 +52,6 @@ img {
   font-size: var(--title-size);
 } */
 
-.first-section {
+/* .first-section {
   border-bottom: var(--border)
-}
+} */

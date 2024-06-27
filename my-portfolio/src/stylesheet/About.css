@@ -39,47 +39,61 @@
     }
 
 }
+
+.hello {
+    font-style: italic;
+}
     
 
 .word-section h1 {
+    font-family: 'EB Garamond';
     margin-top: 2em;
     font-size: 2em;
 }
 
 .word-section {
-    line-height: 1.6; 
+    line-height: 1.7; 
     padding: 2em;
+}
+
+.highlight-p {
+    background-color: #f8e2d1;
 }
 
 .image-button-section img {
     height: 25em;
     width: 20em;
-    margin-bottom: 20px;
+    margin-bottom: 0em;
     filter: var(--shadow);
-    margin-top: 10em;
+    /* margin-top: 10em; */
 }
 
 .experience {
     font-weight: 600;
     background-color: #f8e2d1;
+    /* margin-top: 0.5em; */
+}
+
+.word-section li {
+    margin-bottom: 0em;
 }
 
 .word-section ul {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .word-section {
-    max-width: 40em; /* Adjusted from 300px */
+    max-width: 40em;
     min-width: 300px;
     margin: 0 2em;
     text-align: justify; 
 }
 
-.bio-section p {
-    max-width: 40em; /* Adjusted from 300px */
+.word-section p {
+    max-width: 40em;
     min-width: 300px;
     line-height: 1.5em;
-    padding: 20px;
+    padding: 0 1.6em 1em 1.6em;
     margin: 0 auto;
     text-align: justify; 
 }
@@ -91,6 +105,11 @@
 .bio-section, .word-section h1 {
     display: flex;
     justify-content: center;
+}
+
+.word-section h1 {
+    margin: 2em 0 0 0.8em;
+    justify-content: flex-start;
 }
 
 .favorite {
@@ -105,29 +124,6 @@
    
 }
 
-/* buttons */
-.resume-button {
-    background-color: #ffffff;
-    border-radius: .5rem;
-    border: 0;
-    box-sizing: border-box;
-    color: #111827;
-    font-size: .875rem;
-    font-weight: 600;
-    line-height: 1.25rem;
-    padding: .75rem 1rem;
-    text-align: center;
-    text-decoration-thickness: auto;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 10px;
-}
-
-.resume-button:hover {
-    background-color: #f8e2d1;
-}
-
 .resume-anchor {
     display: flex;
     justify-content: center;
@@ -135,12 +131,14 @@
 
 .word-section a {
     /* font-weight: 600; */
-    color: #000000;
+    color: #1254a9;
+    text-decoration: underline;
+    transition: #589ac8 0.3s ease;
   }
   
   .word-section a:hover {
-    color: #341a07;
-    background-color: #f8e2d1;
+    color: #589ac8;
+    /* background-color: #f8e2d1; */
     border-radius: 15%;
     transition: background-color 0.3s ease;
   }

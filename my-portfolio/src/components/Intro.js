@@ -15,7 +15,7 @@ function Intro() {
         design with curiosity about storytelling.
         </p>
 
-        <span className="my-works">↓ Works ↓</span>
+        {/* <span className="my-works">↓ Works ↓</span> */}
       </section>
         <Projects />
     </section>

@@ -13,11 +13,11 @@ function Footer() {
           <li><a href="https://www.linkedin.com/in/yumiko-chow/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
           <li><a href="mailto:chow.y@northeastern.edu">Email</a></li>
         </ul>
-      </section>
-      <ul className="bottom">
+      {/* <ul className="bottom">
         <li><Link to="/">Works</Link></li>
         <li><Link to="/about">About</Link></li>
-      </ul>
+      </ul> */}
+      </section>
     </footer>
   );
 }

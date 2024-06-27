@@ -3,6 +3,7 @@ import React from 'react';
 import '../stylesheet/About.css';
 import Portrait from '../assets/IMG_9214.jpg';
 import Gallery from '../components/Gallery';
+import Button from '../components/Button';
 
 function About() {
   return (
@@ -12,24 +13,25 @@ function About() {
             <div className="image-button-section">
 
                 <img src={Portrait} alt="me!"></img>
-                <a href="https://docs.google.com/document/d/1R-CsHKFqGwg0iKjsfwKJ5fNCJBYXQupkZWiSC9276-s/edit?usp=sharing" class="resume-anchor">
-                    <button class="resume-button" type="Button">Resume ↓</button>
-                </a>
+                <Button href="https://docs.google.com/document/d/1R-CsHKFqGwg0iKjsfwKJ5fNCJBYXQupkZWiSC9276-s/edit?usp=sharing" className="resume-button">
+                    Resume ↓
+                </Button>
 
             </div>    
                 
             <div className="word-section"> 
-            <h1>Hi! I'm Yumi!</h1>
+            <section className="heading-paragraph">
+            <h1><mark className="hello">Hello!&nbsp;</mark> I'm Yumiko.</h1>
                 <p> 
                 I am a rising second-year student at Northeastern University, majoring in Computer Science and Design with a concentration in Interaction Design.
-                I'm passionate about creating digital designs and applications that are both efficient and highly usable.
+                <mark className="highlight-p"> I'm passionate about creating digital designs and applications that are both efficient and highly usable. </mark>
                 I enjoy solving problems and have a keen interest in computer and data science, human-computer interaction, and social advocacy.
-                My focus is on making design accessible and centered around human needs. 
-
+               <mark className="highlight-p"> My focus is on making design accessible and centered around human needs. </mark>
                 </p>
+            </section>
 
-                <h4><span className="experience">Some of my relevant experience:</span></h4>
                 <ul>
+                    <li><span className="experience">Some of my relevant experience:</span></li>
                     <li>
                     ⟡ Software Engineer @ <a href="https://hackbeanpot.com/" target="_blank" rel="noopener noreferrer">HackBeanpot, Inc.</a>
                     </li>

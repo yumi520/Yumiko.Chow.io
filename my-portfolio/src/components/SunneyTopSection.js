@@ -1,5 +1,6 @@
 import React from "react";
-import sunneyMock from "../assets/Screenshot 2024-01-04 at 4.48.08 PM.png";
+//import sunneyMock from "../assets/Screenshot 2024-01-04 at 4.48.08 PM.png";
+import sunneyMockBG from '../assets/sunneyMockBG.png';
 
 
 function SunneyTopSection() {
@@ -7,7 +8,7 @@ function SunneyTopSection() {
         <section class="sunneyTopSection">
         <h1>Sunney</h1>
         <p>Find opportunities for self-expression and interest exploration</p>
-        <img src={sunneyMock} alt="Mockup of Sunney front page"></img>
+        <img src={sunneyMockBG} alt="Mockup of Sunney front page"></img>
 
         <div className="data-about-project">
         <ul>
