@@ -1,3 +1,3 @@
-This is my personal art portfolio website built with HTMl and CSS!
+This is my personal art portfolio website built with React.js!
 
 Visit here: yumi520.github.io
