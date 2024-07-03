@@ -13,9 +13,11 @@ function About() {
             <div className="image-button-section">
 
                 <img src={Portrait} alt="me!"></img>
-                <Button href="https://docs.google.com/document/d/1R-CsHKFqGwg0iKjsfwKJ5fNCJBYXQupkZWiSC9276-s/edit?usp=sharing" className="resume-button">
-                    Resume ↓
-                </Button>
+                <div className="resume-container">
+                    <Button href="https://docs.google.com/document/d/1R-CsHKFqGwg0iKjsfwKJ5fNCJBYXQupkZWiSC9276-s/edit?usp=sharing" className="resume-button">
+                        Resume ↓
+                    </Button>
+                </div>
 
             </div>    
                 
@@ -23,7 +25,7 @@ function About() {
             <section className="heading-paragraph">
             <h1><mark className="hello">Hello!&nbsp;</mark> I'm Yumiko.</h1>
                 <p> 
-                I am a rising second-year student at Northeastern University, majoring in Computer Science and Design with a concentration in Interaction Design.
+                I am a second-year student at Northeastern University, majoring in Computer Science and Design with a concentration in Interaction Design.
                 <mark className="highlight-p"> I'm passionate about creating digital designs and applications that are both efficient and highly usable. </mark>
                 I enjoy solving problems and have a keen interest in computer and data science, human-computer interaction, and social advocacy.
                <mark className="highlight-p"> My focus is on making design accessible and centered around human needs. </mark>

@@ -26,8 +26,8 @@ function Sunney() {
         <span>I started researching popular traveling sites like Let’s Go, Footprint, and Lonely Planet. </span>
         <img src={sunneyCompAnalysis} alt="Low-Fidelity mockup of Sunney design"></img>
         <p>I created a chart of strengths and weaknesses among popular traveling websites. 
-            I noticed that most of them had overwhelming information and
-             I had a difficult time navigating to where I wanted to go.
+        <mark className="highlight">&nbsp;I noticed that most of them had overwhelming information and
+             I had a difficult time navigating to where I wanted to go.&nbsp;</mark>
               One commonality between all these sites is the beautiful imagery.
         </p>
     </section>

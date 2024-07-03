@@ -32,7 +32,7 @@ function Projects() {
         <img src={ChristmasDesignerScreen} class="Sunney" alt="home page for Christmas Designer game"></img>
         <div className="description-section">
             <h3>Christmas Designer</h3>
-            <h4>Full-stack Website App</h4>
+            <h4>Full-Stack Website App</h4>
             <p>Won Best in the Holiday Spirit Hack at Codedex Hackathon</p>
             <div className="sunney-anchor">
                     <Button href="https://github.com/yumi520/holiday-hackathon-yumi-main?tab=readme-ov-file" className="sunney-button" type="Button" target="_blank" rel="noopener noreferrer">View Full Project ↓</Button>

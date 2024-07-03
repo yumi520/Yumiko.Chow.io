@@ -5,3 +5,7 @@
 body {
   font-family: 'Roboto', serif;
 }
+
+.highlight {
+  background-color: bisque;
+}

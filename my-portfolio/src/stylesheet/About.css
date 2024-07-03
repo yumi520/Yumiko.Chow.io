@@ -142,3 +142,19 @@
     border-radius: 15%;
     transition: background-color 0.3s ease;
   }
+
+/* 
+  .resume-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} */
+
+.resume-button {
+    font-size: 1em;
+    padding: 1em;
+    margin: 1em 0 0 0;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}

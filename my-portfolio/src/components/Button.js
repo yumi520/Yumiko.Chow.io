@@ -27,16 +27,18 @@ function Button ({ onClick, href, children, type, className, to }) {
 
 }
 
-
+//a mechanism that ensures that the passed value is of the correct datatype
 Button.propTypes = {
-    onClick: PropTypes.func, // Optional click handler for button elements
-    href: PropTypes.string, // Optional URL for anchor elements
-    children: PropTypes.node.isRequired, // The content inside the button (e.g., text)
-    type: PropTypes.string, // The button type (e.g., 'button', 'submit')
-    className: PropTypes.string, // Additional CSS classes for styling
+    onClick: PropTypes.func,
+    href: PropTypes.string,
+    children: PropTypes.node.isRequired,
+    type: PropTypes.string, 
+    className: PropTypes.string, 
   };
   
 
+  //default values for props in case they are not passed from
+  //the parent component
   Button.defaultProps = {
     onClick: null,
     href: null,

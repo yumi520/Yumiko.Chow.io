@@ -4,6 +4,10 @@
     margin-bottom: 5em;
 }
 
+.sunney-overview-title {
+    font-size: small;
+}
+
 .data-about-project {
     display: flex;
     justify-content: space-evenly;
@@ -27,6 +31,7 @@
 }
 
 .sunneyTopSection h1 {
+    font-family: 'ED Garamond';
     font-weight: bolder;
     font-size: 5rem;
 }
@@ -39,6 +44,7 @@ img {
 
 .sunney-overview h2, .sunney-problem h2, .sunney-solution h2,
  .sunneyFourthSection h2, .sunney-comp-analysis h2, .sunney-user-interviews h2, .sunney-findings-analysis h2, .sunney-design h2 {
+    font-family: 'ED Garamond';
     font-weight: bold;
     font-size: 2rem;
 }
@@ -106,6 +112,7 @@ img {
 .sunney-user-interviews h2, .sunney-findings-analysis h2, .sunney-design h2, .sunneyLowfi h2,
  .sunneyBranding h2, .sunneyHifi h2 {
     display: flex;
+    font-family: 'ED Garamond';
     justify-content: flex-start;
     margin-left: 20%;
     font-size: 30px;
@@ -115,10 +122,14 @@ img {
     display: flex;
     justify-content: flex-start;
     margin-left: 23%;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.3em;
 }
 
 .sunneyLowfi, .sunneyBranding, .sunneyHifi {
     margin-bottom: 100px;
+}
+
+.sunneyHifi p {
+    margin-bottom: 0.1em;
 }
