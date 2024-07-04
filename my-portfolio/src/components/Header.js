@@ -8,7 +8,7 @@ function Header() {
       <header>
         <nav>
           <ul className="pages">
-            <li className="logo"> YUMI </li>
+            <li className="logo"> YUMIKO CHOW</li>
             <li className="works-link"> <Link to="/"> WORKS </Link></li>
             <li className="about-me"> <Link to="/about"> ABOUT </Link></li>
           </ul>

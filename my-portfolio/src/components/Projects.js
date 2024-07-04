@@ -1,9 +1,9 @@
 import React from 'react';
-import '../stylesheet/Projects.css'
+import '../stylesheet/Projects.css';
 import sunneyMockBG from '../assets/sunneyMockBG.png';
-import Button from '../components/Button.js'
+import Button from '../components/shared/Button.js';
 import ChristmasDesignerScreen from '../assets/christmasDesignerScreen.png';
-//import { Link } from 'react-router-dom';
+import SocialSpotifyScreen from '../assets/SocialSpotifyBG.png';
 
 function Projects() {
   return (
@@ -11,8 +11,14 @@ function Projects() {
         {/* <h2 className="works-title">My Works</h2> */}
 
         <section className="sunney-showcase">
+        <div className="blur-container">
+            <span className="dot1"></span>
+            <span className="dot2"></span>
+            <span className="dot3"></span>
+            <span className="dot4"></span>
+            <span className="dot5"></span>
+        </div>
             <img src={sunneyMockBG} class="Sunney" alt="Second app mockup of Sunney"></img>
-            
 
             <div className="description-section">
                 <h3>Sunney</h3>
@@ -25,6 +31,20 @@ function Projects() {
                 </div>
             </div>
         </section>
+
+        <section className="sunney-showcase">
+        
+
+        <img src={SocialSpotifyScreen} class="Sunney" alt="home page Social Spotify"></img>
+        <div className="description-section">
+            <h3>Social Spotify</h3>
+            <h4>UI/UX Design: Mobile App </h4>
+            <p>Redesign Project from Interaction Design Principles</p>
+            <div className="sunney-anchor">
+                    <Button to="/spotify" className="case-study-button">View Full Project ↓</Button>
+                </div>
+        </div>
+    </section>
 
     <section className="sunney-showcase">
         

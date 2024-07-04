@@ -3,7 +3,7 @@ import React from 'react';
 import '../stylesheet/About.css';
 import Portrait from '../assets/IMG_9214.jpg';
 import Gallery from '../components/Gallery';
-import Button from '../components/Button';
+import Button from '../components/shared/Button';
 
 function About() {
   return (

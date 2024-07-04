@@ -6,12 +6,12 @@ import sunneyHifi1 from "../assets/Screenshot 2024-01-04 at 4.48.08 PM.png";
 import sunneyHifi2 from "../assets/Screenshot 2024-01-04 at 5.17.42 PM.png";
 
 // component imports
-import SunneyTopSection from "../components/SunneyTopSection.js";
-import SunneyOverview from "../components/SunneyOverview.js"
-import SunneyProblem from "../components/SunneyProblem.js";
+import SunneyTopSection from "../components/sunney/SunneyTopSection.js";
+import SunneyOverview from "../components/sunney/SunneyOverview.js"
+import SunneyProblem from "../components/sunney/SunneyProblem.js";
 import sunneySitemap from "../assets/sunney - sitemap.png";
 import sunneyCompAnalysis from "../assets/sunney - comp analysis.png";
-import SunneySolution from "../components/SunneySolution";
+import SunneySolution from "../components/sunney/SunneySolution.js";
 
 function Sunney() {
     return (

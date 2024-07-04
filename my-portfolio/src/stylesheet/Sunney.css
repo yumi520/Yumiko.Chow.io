@@ -1,7 +1,67 @@
+/* delete when finished */
+.wip {
+    display: flex;
+    justify-content: center;
+    margin: 10em;
+}
+
+
+/* css for the top section */
+@media screen and (max-width: 500px) {
+    .data-about-project {
+        flex-wrap: wrap;
+    }
+}
+
+/* end */
+
+
+
+/* css for videos and the captions */
+
+.no-controls {
+    pointer-events: none; /* Disable all pointer events */
+    max-width: 50%;
+}
+
+.video-container-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.video-container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.video-caption {
+    text-align: center;
+    max-width: 15em;
+    font-weight: 700;
+    font-size: x-large;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+}
+
+.sunney-solution video {
+    height: 30em;
+    width: 30em;
+}
+
+/* end */
+
 .sunneyTopSection {
     text-align: center;
     border-bottom: var(--border);
     margin-bottom: 5em;
+}
+
+.sunneyTopSection ul {
+    margin-bottom: 3em;
 }
 
 .sunney-overview-title {
@@ -37,7 +97,7 @@
 }
 
 img {
-    width: 60%;
+    width: 50%;
     margin: auto;
     display: block;
 }

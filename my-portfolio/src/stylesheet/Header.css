@@ -19,6 +19,9 @@ nav {
 
 .logo {
     margin-right: auto; 
+    font-family: 'ED Garamond';
+    font-size: larger;
+    font-weight: 600;
 }
 
 .nav-pages {
@@ -43,6 +46,6 @@ nav {
 }
 
 header {
-    border-bottom: var(--border);
+    /* border-bottom: var(--border); */
     padding: 1em 8em;
 }

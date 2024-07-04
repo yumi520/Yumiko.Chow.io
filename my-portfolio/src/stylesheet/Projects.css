@@ -29,6 +29,7 @@
     height: 20em;
     width: 27em;
     /* filter: var(--shadow); */
+    z-index: 1;
 }
 
 .sunney-showcase, .description-section {
@@ -90,4 +91,43 @@
 .sunney-anchor {
     display: flex;
     justify-content: center;
+}
+
+.dot1, .dot2, .dot3, .dot4, .dot5 {
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(6rem);
+    z-index: 0;
+}
+
+.dot1 {
+    background-color: #ff8400;
+    top: 30em;
+    left: 20em;
+}
+
+.dot2 {
+    background-color: #ff8400;
+    top: 40em;
+    left: 30em;
+}
+
+.dot3 {
+    background-color: #ff8400;
+    top: 20em;
+    left: 60em;
+}
+
+.dot4 {
+    background-color: #ff8400;
+    top: 65em;
+    left: 75em;
+}
+
+.dot5 {
+    background-color: #ff8400;
+    top: 110em;
+    left: 10em;
 }

@@ -11,7 +11,7 @@ import Dog from '../assets/Screenshot 2023-10-30 at 6.29.24 PM.png';
 import Couple from '../assets/Screenshot 2023-10-30 at 6.29.43 PM.png';
 import SelfWithOil from '../assets/Screenshot 2023-10-30 at 6.30.00 PM.png';
 
-import Images from './Image.js';
+import Images from '../components/shared/Image.js';
 
 function Gallery() {
     return (

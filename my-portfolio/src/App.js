@@ -7,6 +7,7 @@ import Intro from './components/Intro';
 import About from './pages/About';
 import Footer from './components/Footer';
 import Sunney from './pages/Sunney';
+import Spotify from './pages/SocialSpotify.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Intro />} />
           <Route path="/about" element={<About />} />
           <Route path="/sunney" element={<Sunney />} />
+          <Route path="/spotify" element={<Spotify />} />
         </Routes>
         <Footer />
       </div>
