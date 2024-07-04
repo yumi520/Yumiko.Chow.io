@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab5daf70.css",
-    "main.js": "/static/js/main.74e29aec.js",
+    "main.css": "/static/css/main.7141baf9.css",
+    "main.js": "/static/js/main.13823d0d.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
+    "static/media/SocialSpotify - Quiz.mov": "/static/media/SocialSpotify - Quiz.870b55cdf8b7478825c1.mov",
     "static/media/Screenshot 2023-10-30 at 6.14.57 PM.png": "/static/media/Screenshot 2023-10-30 at 6.14.57 PM.a12cb4d0b3b83c608dd7.png",
     "static/media/Screenshot 2023-10-30 at 6.15.05 PM.png": "/static/media/Screenshot 2023-10-30 at 6.15.05 PM.5239aa4de715f22db440.png",
     "static/media/Screenshot 2023-10-30 at 6.15.24 PM.png": "/static/media/Screenshot 2023-10-30 at 6.15.24 PM.b96067f0c47ef3b6aea9.png",
     "static/media/Screenshot 2023-10-30 at 6.29.24 PM.png": "/static/media/Screenshot 2023-10-30 at 6.29.24 PM.e49c7f283ca50b0b497f.png",
+    "static/media/SocialSpotify - Message.mov": "/static/media/SocialSpotify - Message.3144d19ef52f2dfd5f09.mov",
     "static/media/Screenshot 2023-10-30 at 6.30.00 PM.png": "/static/media/Screenshot 2023-10-30 at 6.30.00 PM.a1f97be654e8dc09eb47.png",
     "static/media/Screenshot 2023-10-30 at 6.29.43 PM.png": "/static/media/Screenshot 2023-10-30 at 6.29.43 PM.f08832d816d95fd13f50.png",
     "static/media/IMG_8175.jpg": "/static/media/IMG_8175.4a4b561eb8b33e78dc3e.jpg",
@@ -19,16 +21,17 @@
     "static/media/Chow,Yumiko._CreativeMind_.jpg": "/static/media/Chow,Yumiko._CreativeMind_.5756f851a95f8cc0e516.jpg",
     "static/media/Chow,Yumiko._CatHaven_.jpg": "/static/media/Chow,Yumiko._CatHaven_.ab74cab6f929c4c46d00.jpg",
     "static/media/Screenshot 2024-01-04 at 5.16.57 PM.png": "/static/media/Screenshot 2024-01-04 at 5.16.57 PM.b6e0b43101c25ed16f3f.png",
+    "static/media/SocialSpotifyBG.png": "/static/media/SocialSpotifyBG.1104ac54c416377f6fc8.png",
     "static/media/Screenshot 2024-01-04 at 5.15.33 PM.png": "/static/media/Screenshot 2024-01-04 at 5.15.33 PM.ff47d1f8fab47eb0762f.png",
     "static/media/sunney - comp analysis.png": "/static/media/sunney - comp analysis.6a19c318531254d52ec8.png",
     "static/media/sunney - sitemap.png": "/static/media/sunney - sitemap.08515fa9c3d0d6a499a8.png",
     "index.html": "/index.html",
-    "main.ab5daf70.css.map": "/static/css/main.ab5daf70.css.map",
-    "main.74e29aec.js.map": "/static/js/main.74e29aec.js.map",
+    "main.7141baf9.css.map": "/static/css/main.7141baf9.css.map",
+    "main.13823d0d.js.map": "/static/js/main.13823d0d.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab5daf70.css",
-    "static/js/main.74e29aec.js"
+    "static/css/main.7141baf9.css",
+    "static/js/main.13823d0d.js"
   ]
 }
