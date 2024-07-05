@@ -6,6 +6,7 @@ function Modal({ src, alt, caption, title, onClose }) {
     return (
         <div className="modal" onClick={onClose}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <span className="close" onClick={onClose}>&times;</span>
                 <img src={src} alt={alt} />
                 {title && <div className="title">{title}</div>}
                 {caption && <div className="caption">{caption}</div>}
