@@ -3,7 +3,7 @@ import React from 'react';
 function SpotifyProblem() {
     return(
         <section class="sunney-problem">
-        <h2>The Problem</h2>
+        <h2>The Problem:</h2>
         <p>
         Creating a platform for music lovers has its challenges.
          Matching users by music taste can be tricky due to varied preferences and limited data.

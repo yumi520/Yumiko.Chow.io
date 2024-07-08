@@ -60,8 +60,8 @@ function Sunney() {
     <section class="sunney-design">
         <h2>Design:</h2>
         <h3>Sitemap</h3>
-        <img src={sunneySitemap} alt="Low-Fidelity mockup of Sunney design"></img>
         <span>I planned out the content structure based on the client's priorities.</span>
+        <img src={sunneySitemap} alt="Low-Fidelity mockup of Sunney design"></img>
         
     </section>
 

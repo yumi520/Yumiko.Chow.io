@@ -10,8 +10,11 @@ import SpotifyTopSection from "../components/spotify/SpotifyTopSection.js";
 import SpotifyOverview from "../components/spotify/SpotifyOverview.js"
 import SpotifyProblem from "../components/spotify/SpotifyProblem.js";
 import SpotifySolution from "../components/spotify/SpotifySolution.js";
-import sunneySitemap from "../assets/sunney - sitemap.png";
-import sunneyCompAnalysis from "../assets/sunney - comp analysis.png";
+import SpotifyCompAnalysis from "../components/spotify/SpotifyCompAnalysis.js";
+import SpotifyUserInterviews from "../components/spotify/SpotifyUserInterviews.js";
+import SpotifyFindingsAnalysis from "../components/spotify/SpotifyFindingsAnalysis.js";
+import SpotifyPersona from "../components/spotify/SpotifyPersona.js";
+import SpotifyDesign from "../components/spotify/SpotifyDesign.js";
 
 function Spotify() {
     return(
@@ -21,53 +24,14 @@ function Spotify() {
     <SpotifyProblem />
     <SpotifySolution />
 
-    <h1 className="wip">Work in progress...Come back soon!</h1>
+    {/* <h1 className="wip">Work in progress...Come back soon!</h1> */}
+    < SpotifyCompAnalysis />
+    < SpotifyUserInterviews />
+    <SpotifyFindingsAnalysis />
+    <SpotifyPersona />
+    <SpotifyDesign />
 
-    {/* <section class="sunney-comp-analysis">
-        <h2>Competitve Analysis:</h2>
-        <span>I started researching popular traveling sites like Let’s Go, Footprint, and Lonely Planet. </span>
-        <img src={sunneyCompAnalysis} alt="Low-Fidelity mockup of Sunney design"></img>
-        <p>I created a chart of strengths and weaknesses among popular traveling websites. 
-        <mark className="highlight">&nbsp;I noticed that most of them had overwhelming information and
-             I had a difficult time navigating to where I wanted to go.&nbsp;</mark>
-              One commonality between all these sites is the beautiful imagery.
-        </p>
-    </section>
-
-    <section class="sunney-user-interviews">
-        <h2>User Interviews:</h2>
-        <span>These users fell into this category: college students.</span>
-        <ul>
-            <span>Objects for 1:1 Interviews</span>
-            <li>⟡ Find out what adjectives are associated with college students</li>
-            <li>⟡ Learn what people typically go to travel sites for</li>
-            <li>⟡ Find out what makes a traveling site pleasant or frustrating</li>
-        </ul>
-    </section>
-
-    <section class="sunney-findings-analysis">
-        <h2>Findings and Analysis:</h2>
-        <span>After interviewing people from said category, I saw a trend:</span>
-        <ul>
-            <span>College Students Prefer:</span>
-            <li>⟡ Budget-friendly</li>
-            <li>⟡ Convenience</li>
-            <li>⟡ Networking opportunities</li>
-            <li>⟡ Program size</li>
-            <li>⟡ Learning about culture</li>
-            <li>⟡ Social life</li>
-        </ul>
-    </section>
-
-    <section class="sunney-design">
-        <h2>Design:</h2>
-        <h3>Sitemap</h3>
-        <img src={sunneySitemap} alt="Low-Fidelity mockup of Sunney design"></img>
-        <span>I planned out the content structure based on the client's priorities.</span>
-        
-    </section>
-
-    <section class="sunneyLowfi">
+    {/* <section class="sunneyLowfi">
         <h2>Low-Fidelity Explorations:</h2>
         <p>I utilized a lot of rounded shapes to convey balance and nature. I wanted to keep it as simple as possible.</p>
         <img src={sunneyLofi} alt="Low-Fidelity mockup of Sunney design"></img>

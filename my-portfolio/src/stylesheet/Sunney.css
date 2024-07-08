@@ -1,3 +1,19 @@
+/* Spotify User Interviews */
+/* Sunney doesnt have a p but Spotify does */
+
+.sunney-user-interviews p {
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: start;
+    margin-bottom: 3em;
+}
+
+
+
+
+
 /* delete when finished */
 .wip {
     display: flex;
@@ -111,7 +127,7 @@ img {
 
 .sunney-overview p, .sunney-problem p, .sunney-solution p,
  .sunneyFourthSection p, .sunney-comp-analysis p, .sunneyHifi p,
- .sunney-comp-analysis span, .sunney-design span, .sunneyLowfi p {
+ .sunney-comp-analysis span {
     line-height: 30px;
     width: 50%;
     margin: auto;
@@ -120,11 +136,21 @@ img {
     margin-bottom: 3em;
 }
 
-.sunney-user-interviews ul, .sunney-findings-analysis ul {
-    line-height: 1.5em;
+.sunney-design span, .sunneyLowfi p  {
+    line-height: 30px;
     width: 50%;
     margin: auto;
     display: block;
+    text-align: start;
+    margin-bottom: 1em;
+}
+
+.sunney-user-interviews ul, .sunney-findings-analysis ul {
+    line-height: 1.5em;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-bottom: 5em;
 
@@ -134,7 +160,6 @@ img {
     line-height: 1.5em;
     width: 50%;
     margin: auto;
-    display: block;
     text-align: start;
 
 }
@@ -143,7 +168,7 @@ img {
     width: 50%;
     margin: auto;
     display: block;
-    text-align: center;
+    text-align: start;
     font-weight: 500;
     margin-bottom: 1em;
 

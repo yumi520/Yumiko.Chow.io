@@ -7,7 +7,7 @@ import Match from '../../assets/SocialSpotify - Message.mov';
 function SpotifySolution() {
     return(
         <section class="sunney-solution">
-        <h2>The Solution</h2>
+        <h2>The Solution:</h2>
         <p>I designed a mobile application there are customizable music sharing options allow users
              to select which genres, artists, playlists, and listening habits they want to share,
               while an engaging and personalized quiz within Spotify enhances the user experience
