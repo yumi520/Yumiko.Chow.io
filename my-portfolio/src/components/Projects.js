@@ -18,7 +18,7 @@ function Projects() {
             <span className="dot4"></span>
             <span className="dot5"></span>
         </div>
-            <img src={sunneyMockBG} class="Sunney" alt="Second app mockup of Sunney"></img>
+            <img src={sunneyMockBG} className="Sunney" alt="Second app mockup of Sunney"></img>
 
             <div className="description-section">
                 <h3>Sunney</h3>
@@ -35,7 +35,7 @@ function Projects() {
         <section className="sunney-showcase">
         
 
-        <img src={SocialSpotifyScreen} class="Sunney" alt="home page Social Spotify"></img>
+        <img src={SocialSpotifyScreen} className="Sunney" alt="home page Social Spotify"></img>
         <div className="description-section">
             <h3>Social Spotify</h3>
             <h4>UI/UX Design: Mobile App </h4>
@@ -49,7 +49,7 @@ function Projects() {
     <section className="sunney-showcase">
         
 
-        <img src={ChristmasDesignerScreen} class="Sunney" alt="home page for Christmas Designer game"></img>
+        <img src={ChristmasDesignerScreen} className="Sunney" alt="home page for Christmas Designer game"></img>
         <div className="description-section">
             <h3>Christmas Designer</h3>
             <h4>Full-Stack Website App</h4>

@@ -10,18 +10,6 @@
     margin-bottom: 3em;
 }
 
-
-
-
-
-/* delete when finished */
-.wip {
-    display: flex;
-    justify-content: center;
-    margin: 10em;
-}
-
-
 /* css for the top section */
 @media screen and (max-width: 500px) {
     .data-about-project {

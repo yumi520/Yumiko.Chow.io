@@ -1,3 +1,10 @@
+/* Media query for screens with a max width of 500px */
+@media screen and (max-width: 500px) {
+    .logo {
+        display: none;
+    }
+}
+
 :root {
     --bg-color: #fffbf9;
     --title-size: 48px;

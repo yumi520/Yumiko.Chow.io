@@ -1,3 +1,10 @@
+@media screen and (max-width: 500px) {
+    .Sunney {
+        height: 10px;
+        width: 20px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .sunney-showcase {
         flex-direction: column;
@@ -31,8 +38,8 @@
 
 
 .Sunney {
-    height: 20em;
-    width: 27em;
+    height: 17em;
+    width: 25em;
     /* filter: var(--shadow); */
     z-index: 1;
 }
