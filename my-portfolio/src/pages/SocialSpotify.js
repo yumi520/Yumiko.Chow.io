@@ -1,8 +1,5 @@
 import React from "react";
 import "../stylesheet/Sunney.css"
-// import sunneyLofi from "../assets/Screenshot 2024-01-04 at 5.15.33 PM.png";
-// import sunneyBranding from "../assets/Screenshot 2024-01-04 at 5.16.57 PM.png";
-// import sunneyHifi1 from "../assets/Screenshot 2024-01-04 at 4.48.08 PM.png";
 
 import SpotifySketches from "../assets/SpotifySketches.png";
 import SpotifyLofi from "../assets/SpotifyLofi.png";
@@ -19,6 +16,9 @@ import SpotifyFindingsAnalysis from "../components/spotify/SpotifyFindingsAnalys
 import SpotifyPersona from "../components/spotify/SpotifyPersona.js";
 import SpotifyDesign from "../components/spotify/SpotifyDesign.js";
 import BasicDesignSection from "../components/shared/BasicDesignSection.js";
+
+//scroll to top
+import ScrollToTopOnMount from "../components/shared/ScrollToTop.jsx"
 
 function Spotify() {
 
@@ -52,6 +52,7 @@ function Spotify() {
 
     return(
         <body>
+    <ScrollToTopOnMount/>
     <SpotifyTopSection />
     <SpotifyOverview />
     <SpotifyProblem />

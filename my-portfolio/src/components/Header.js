@@ -8,8 +8,9 @@ function Header() {
       <header>
         <nav>
           <ul className="pages">
-            <li className="logo"> YUMIKO CHOW</li>
-            <li className="works-link"> <Link to="/"> WORKS </Link></li>
+            <li className="logo"> <Link to="/"> YUMIKO CHOW</Link></li>
+            <li className="works-link"> <Link to="/code"> CODE </Link></li>
+            <li className="works-link"> <Link to="/design"> DESIGN </Link></li>
             <li className="about-me"> <Link to="/about"> ABOUT </Link></li>
           </ul>
         </nav>

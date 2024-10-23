@@ -5,6 +5,7 @@ import Button from '../components/shared/Button.js';
 import ChristmasDesignerScreen from '../assets/christmasDesignerScreen.png';
 import ChineseRadicalMacbook from '../assets/ChineseRadicalMacbook.png';
 import SocialSpotifyScreen from '../assets/SocialSpotifyBG.png';
+import DotsDecor from './shared/DotsDecor.jsx';
 
 function Projects() {
   return (
@@ -32,15 +33,9 @@ function Projects() {
             </div>
         </div>
         </section>
+        <DotsDecor/>
 
         <section className="sunney-showcase">
-        <div className="blur-container">
-            <span className="dot1"></span>
-            <span className="dot2"></span>
-            <span className="dot3"></span>
-            <span className="dot4"></span>
-            <span className="dot5"></span>
-        </div>
             <img src={sunneyMockBG} className="Sunney" alt="Second app mockup of Sunney"></img>
 
             <div className="description-section">
@@ -68,8 +63,6 @@ function Projects() {
                 </div>
         </div>
     </section>
-
-
     </section>
   );
 }

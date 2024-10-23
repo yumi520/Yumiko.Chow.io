@@ -13,9 +13,13 @@ import sunneySitemap from "../assets/sunney - sitemap.png";
 import sunneyCompAnalysis from "../assets/sunney - comp analysis.png";
 import SunneySolution from "../components/sunney/SunneySolution.js";
 
+//scroll to top
+import ScrollToTopOnMount from "../components/shared/ScrollToTop.jsx"
+
 function Sunney() {
     return (
 <body>
+    <ScrollToTopOnMount/>
     <SunneyTopSection />
     <SunneyOverview />
     <SunneyProblem />
