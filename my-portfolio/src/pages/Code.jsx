@@ -1,5 +1,6 @@
 import ChristmasDesignerScreen from '../assets/christmasDesignerScreen.png';
 import ChineseRadicalMacbook from '../assets/ChineseRadicalMacbook.png';
+import StockSimulator from '../assets/StockSimulator.png';
 import Button from '../components/shared/Button.js';
 import '../stylesheet/Projects.css';
 
@@ -16,6 +17,15 @@ function Code() {
                     <div className="sunney-anchor">
                             <Button href="https://github.com/yumi520/RadicallyChinese" className="sunney-button" type="Button" target="_blank" rel="noopener noreferrer">View Full Project ↓</Button>
                     </div>
+                </div>
+            </section>
+
+            <section className="sunney-showcase">
+                <img src={StockSimulator} className="Sunney" alt="home page for Radical Chinese game"></img>
+                <div className="description-section">
+                    <h3>Stock Simulator</h3>
+                    <h4>Java, Java Spring, JUnit</h4>
+                    <p>A stock simulator that allows users to buy and sell stocks, manage multiple portfolios, and track real-time portfolio values</p>
                 </div>
             </section>
 

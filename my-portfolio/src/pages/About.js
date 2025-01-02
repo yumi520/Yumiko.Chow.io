@@ -14,7 +14,7 @@ function About() {
 
                 <img src={Portrait} alt="me!"></img>
                 <div className="resume-container">
-                    <Button href="https://docs.google.com/document/d/1uiUsDEui46l23efI0or_jAc089ZhSMN0/edit?usp=sharing&ouid=105791651120188237652&rtpof=true&sd=true" className="resume-button">
+                    <Button href="https://drive.google.com/file/d/1fwmOHgpD9ZtPzvKFaOLRVh-zhnmqOGht/view?usp=sharing" className="resume-button">
                         Resume ↓
                     </Button>
                 </div>
